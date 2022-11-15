@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container1{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 18px 0;
+}
+
+.container2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 18px 0;
+}
+
+.container-img{
+    width: 100%;
+    color: white;
+    padding: 108px 0;
+    filter: brightness(50%);
+    background-image: url(Jordan1.png);
+}
+
+.container-img-text{
+    position: relative;
+    opacity: 1;
+}
