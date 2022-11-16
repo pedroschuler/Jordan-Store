@@ -13,7 +13,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-.container1{
+.discount-container{
     background-color: black;
     color: white;
     display: flex;
@@ -25,7 +25,7 @@ body{
     font-size: 16px;
 }
 
-.container2{
+.brand-container{
     color: black;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@ body{
     font-size: 24px;
 }
 
-.container-img{
+.hero-section-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,29 +44,26 @@ body{
     width: 100%;
     color: white;
     padding: 108px 0;
-    background-color: rgba(0, 0, 0, 0.6);
     background-image: url(Jordan1.png);
-    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
-h1{
+.hero-section-title{
     margin-bottom: 30px;
-}
-
-h2{
-    line-height: 196%;
-}
-
-.container-img-text{
-    width: 75.5%;
+    font-size: 32px;
     font-weight: 700;
-    font-size: 24px;
+    width: 85%;
 }
- .container-img-text2{
-    width: 75.5%;
- }
+ .hero-section-subtitle{
+    line-height: 196%;
+    font-size: 18px;
+    font-weight: 500;
+    width: 85%;
+}
 
-.container3-text1{
+.features-title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,76 +72,41 @@ h2{
     margin-bottom: 12px;
 }
 
-.container3-text2{
+.features-subtitle{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 51px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.container4{
+.first-four-shoes-layer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    width: 80%;
+    width: 85%;
 }
 
-.image1{
+.shoe-container{
     background: #EBE9EA;
-    padding: 50px 6.5px;
-    margin-right: 10px;
+    padding: 60px 6.5px;
 }
 
-.image2{
-    background: #EBE9EA;
-    padding: 50px 6.5px;
-    margin-right: 5px;
+.shoe{
+    height: 180px;
 }
 
-.image3{
-    background: #EBE9EA;
-    padding: 50px 6.5px;
-    margin-left: 5px;
-}
-
-.image4{
-    background: #EBE9EA;
-    padding: 50px 6.5px;
-    margin-left: 10px;
-}
-
-.container5{
+.second-four-shoes-layer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 77px;
+    width: 85%;
 }
 
-.image5{
-    background: #EBE9EA;
-    padding: 50px 6.5px;
-    margin-right: 10px;
-}
-
-.image6{
-    background: #EBE9EA;
-    padding: 50px 6.5px;
-    margin-right: 5px;
-}
-
-.image7{
-    background: #EBE9EA;
-    padding: 50px 6.5px;
-    margin-left: 5px;
-}
-
-.image8{
-    background: #EBE9EA;
-    padding: 50px 6.5px;
-    margin-left: 10px;
-}
  .footer{
     background-color: black;
     color: white;
